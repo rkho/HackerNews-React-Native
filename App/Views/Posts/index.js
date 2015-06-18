@@ -1,4 +1,4 @@
-/*
+c /*
 Coded by: Simar (github.com/iSimar)
 GitHub Project: https://github.com/iSimar/HackerNews-React-Native
 */
@@ -11,13 +11,14 @@ var {
   Text,
   View,
   ListView,
+  fetch
 } = React;
 
 var styles = require("./style");
 var api = require("../../Network/api.js");
 var UtilFuncs = require("../../Utils/functions.js");
 
-//View Elements
+//View Elements'
 var PostCell = require("./Elements/PostCell");
 
 //Views

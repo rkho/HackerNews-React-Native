@@ -25,7 +25,7 @@ var CommentCell = React.createClass({
             <Text style={styles.commentBy}>
               {this.props.comment.by}:
             </Text>
-            <ParseHTML code = {this.props.comment.text} 
+            <ParseHTML code = {this.props.comment.text}
                      style = {styles.parseHTMLStyle}
                      customTagToStyle = {{
                                           '<pre>':{},
@@ -43,13 +43,13 @@ var CommentCell = React.createClass({
             <Text style={styles.commentBy}>
               {this.props.comment.by}:
             </Text>
-            <ParseHTML code = {this.props.comment.text} 
+            <ParseHTML code = {this.props.comment.text}
                      style = {styles.parseHTMLStyle}
                      customTagToStyle = {{
                                           '<pre>':{},
                                           '<code>': styles.commentCode
                                         }} />
-            <TouchableHighlight 
+            <TouchableHighlight
               onPress={this.props.onSelectShowReplies}
               underlayColor='#F6F6EF'>
               <Text style={styles.showRepliesLink}>
@@ -64,7 +64,7 @@ var CommentCell = React.createClass({
           <Text style={styles.commentBy}>
             {this.props.comment.by}:
           </Text>
-          <ParseHTML code = {this.props.comment.text} 
+          <ParseHTML code = {this.props.comment.text}
                      style = {styles.parseHTMLStyle}
                      customTagToStyle = {{
                                           '<pre>':{},
